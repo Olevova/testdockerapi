@@ -2,8 +2,6 @@ const { describe } = require("mocha");
 const { Builder, By, until, wait } = require("selenium-webdriver");
 const should = require("chai").should();
 const chrome = require("selenium-webdriver/chrome");
-// const { execSync } = require("child_process");
-// const waitOn = require('wait-on');
 const {dockerRunner, stopDocker} =require('../utils/dockerRuner.js');
 
 
